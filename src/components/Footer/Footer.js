@@ -1,0 +1,56 @@
+import React from 'react';
+import './Footer.css'
+
+const Footer = () => {
+    return (
+        <div className="footer">
+            <div className="container">
+                <div className="row col-sm-12">
+
+                    <div className="footer-col ">
+
+                        <ul>
+                            <h4>medical</h4>
+                            <li>about us</li>
+                            <li>our service</li>
+                            <li>privacy policy</li>
+                            <li>others</li>
+                        </ul>
+                    </div>
+                    <div className="footer-col ">
+
+                        <ul>
+                            <h4>get help</h4>
+                            <li>FAQ</li>
+                            <li>appointments</li>
+                            <li>facilities</li>
+                            <li>membership</li>
+                        </ul>
+                    </div>
+                    <div className="footer-col col-12 ">
+
+                        <ul>
+                            <h4>medicines</h4>
+                            <li>test reports</li>
+                            <li>surgery</li>
+                            <li>counsiling</li>
+                        </ul>
+                    </div>
+                    <div className="footer-col social-link ">
+
+
+                        <h5>follow us</h5>
+                        <i class="fab fa-facebook-square"></i>
+
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-linkedin"></i>
+
+                    </div>
+                </div>
+            </div>
+            <p style={{ color: 'gray' }}><i class="far fa-copyright"></i>All right reserved by child care hospital 2021</p>
+        </div>
+    );
+};
+
+export default Footer;

@@ -1,0 +1,34 @@
+.footer{
+    background-color: black;
+    line-height: 30px;
+  
+}
+.footer-col li{
+   list-style: none;
+   color: white;
+   text-align: justify;
+
+}
+
+.footer-col{
+    width: 25%;
+    margin-top: 50px;
+}
+.footer-col h4{
+    color: white;
+    text-align: justify;
+}
+.social-link i{
+    color: white;
+    margin-right: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: justify;
+}
+.social-link h5{
+    color: white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
