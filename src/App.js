@@ -4,6 +4,9 @@ import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/Services/Services';
+import NotFound from './components/NotFound/NotFound';
+import SingleDetails from './components/SingleDetails/SingleDetails';
+
 
 function App() {
   return (
@@ -13,13 +16,23 @@ function App() {
 
       <Router>
         <Header></Header>
-        <Home></Home>
+
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route exact path="/services">
+          <Route path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/services">
             <Services></Services>
+          </Route>
+          <Route path="/service/:serviceId">
+            <SingleDetails></SingleDetails>
+          </Route>
+
+          <Route exact path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>

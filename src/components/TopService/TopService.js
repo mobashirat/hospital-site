@@ -1,16 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TopService = ({ topservice }) => {
-    const { name, img } = topservice;
+    const { id, name, img, describtion } = topservice;
     return (
         <div class="col g-4 ps-2">
-            <div class="card h-40 card-bg">
+            <div class="card h-100 card-bg">
                 <img src={img} class="card-img-top w-50 mx-auto mt-5 rounded-3" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">{name}</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">{describtion}</p>
 
-                    <button className="btn-dark">Learn more</button>
+
+                    <Link to={`/service/${id}`}>
+                        <button className="btn-dark">Learn more</button>
+                    </Link>
                 </div>
             </div>
         </div>

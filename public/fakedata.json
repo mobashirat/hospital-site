@@ -1,50 +1,50 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "name": "ATM BOOTH Aceess",
-        "describtion": "",
-        "img": "./img/atm.png"
+        "describtion": "We have ATM BOOTH beside our hospital.It is open for 24hour.You can access your card any time.",
+        "img": "https://i.ibb.co/M1b8L9c/atm.png"
     },
     {
-        "id": 2,
+        "id": "2",
         "name": "Cafeteria Service 24x7",
-        "describtion": "",
-        "img": "./img/cafe.png"
+        "describtion": "Cafetria is open for you where you will get healthy and tasty food.You can check in anytime",
+        "img": "https://i.ibb.co/NLS7wwf/cafe.png"
     },
     {
-        "id": 3,
+        "id": "3",
         "name": "Standard clean Service",
-        "describtion": "",
-        "img": "./img/clean.png"
+        "describtion": "We always ensure to keep clean and neat our hospital to fight against virus.We provides UK method clean service.",
+        "img": "https://i.ibb.co/Xspc6KH/clean.png"
     },
     {
-        "id": 4,
+        "id": "4",
         "name": "Roof-top Garden",
-        "describtion": "",
-        "img": "./img/garden.png"
+        "describtion": "To give you fresh air and environment we arranged garden in roof top.There is a particuler time where you can visit.",
+        "img": "https://i.ibb.co/WkyJHg6/garden.png"
     },
     {
-        "id": 5,
+        "id": "5",
         "name": "Pharmecy Service 24-h ",
-        "describtion": "",
-        "img": "./img/pharrmecy.png"
+        "describtion": "Pharmecy is open for you 24x7.You can buy any medicine at any time.We always try to provide you neccessery things",
+        "img": "https://i.ibb.co/3F2sd4R/pharrmecy.png"
     },
     {
-        "id": 6,
+        "id": "6",
         "name": "Prayer Rooms",
-        "describtion": "",
-        "img": "./img/prayer.png"
+        "describtion": "We have seperated prayer rooms for men and women and also have attached washroom.You can use this room at any time.",
+        "img": "https://i.ibb.co/6mKSQRc/prayer.png"
     },
     {
-        "id": 7,
+        "id": "7",
         "name": "Waiting Area",
-        "describtion": "",
-        "img": "./img/waiting.png"
+        "describtion": "We arranged a well furnished and clean with facilities room.So that You can wait until you called",
+        "img": "https://i.ibb.co/k8td5CJ/waiting.png"
     },
     {
-        "id": 8,
+        "id": "8",
         "name": "Free wifi",
-        "describtion": "",
-        "img": "./img/wifi.jpg"
+        "describtion": "We have wifi service where you can get free access with 15Mbps",
+        "img": "https://i.ibb.co/JB81qXr/wifi.jpg"
     }
 ]

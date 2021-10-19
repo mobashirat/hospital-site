@@ -15,7 +15,7 @@ const Home = () => {
             <TopServices></TopServices>
             <Qualifications></Qualifications>
 
-            {/* <Footer></Footer> */}
+            <Footer></Footer>
         </div>
     );
 };

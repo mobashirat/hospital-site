@@ -15,14 +15,13 @@ const Footer = () => {
                             <h4>medical</h4>
                             <li>about us</li>
                             <li>our service</li>
-                            <li>privacy policy</li>
-                            <li>others</li>
+
                         </ul>
                     </div>
                     <div className="footer-col">
 
                         <ul>
-                            <h4>get help</h4>
+                            <h4>help</h4>
                             <li>FAQ</li>
                             <li>Bills</li>
                             <li>facilities</li>
