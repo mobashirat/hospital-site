@@ -1,0 +1,31 @@
+
+.service{
+    background-color: rgb(147, 6, 241);
+   
+    text-align: center;
+   
+    color:white
+}
+.physicians{
+background-color: rgba(0, 74, 211, 0.849);
+
+    text-align: center;
+    color:white
+}
+.appointments{
+    background-color: rgba(11, 116, 165, 0.726) ;
+   
+    text-align: center;
+    color:white
+}
+.payments{
+    background-color: rgb(94, 0, 156);
+ 
+    text-align: center;
+    color:white
+
+}
+.facilities col:hover{
+  
+    cursor: pointer;
+}

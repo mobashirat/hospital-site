@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "ATM BOOTH Aceess",
+        "describtion": "",
+        "img": "./img/atm.png"
+    },
+    {
+        "id": 2,
+        "name": "Cafeteria Service 24x7",
+        "describtion": "",
+        "img": "./img/cafe.png"
+    },
+    {
+        "id": 3,
+        "name": "Standard clean Service",
+        "describtion": "",
+        "img": "./img/clean.png"
+    },
+    {
+        "id": 4,
+        "name": "Roof-top Garden",
+        "describtion": "",
+        "img": "./img/garden.png"
+    },
+    {
+        "id": 5,
+        "name": "Pharmecy Service 24-h ",
+        "describtion": "",
+        "img": "./img/pharrmecy.png"
+    },
+    {
+        "id": 6,
+        "name": "Prayer Rooms",
+        "describtion": "",
+        "img": "./img/prayer.png"
+    },
+    {
+        "id": 7,
+        "name": "Waiting Area",
+        "describtion": "",
+        "img": "./img/waiting.png"
+    },
+    {
+        "id": 8,
+        "name": "Free wifi",
+        "describtion": "",
+        "img": "./img/wifi.jpg"
+    }
+]

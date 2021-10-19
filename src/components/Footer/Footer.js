@@ -4,12 +4,14 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="footer">
+
             <div className="container">
-                <div className="row col-sm-12">
 
-                    <div className="footer-col ">
+                <div className="row">
 
-                        <ul>
+                    <div className="footer-col">
+
+                        <ul className="col-lg-3 col-12">
                             <h4>medical</h4>
                             <li>about us</li>
                             <li>our service</li>
@@ -17,17 +19,17 @@ const Footer = () => {
                             <li>others</li>
                         </ul>
                     </div>
-                    <div className="footer-col ">
+                    <div className="footer-col">
 
                         <ul>
                             <h4>get help</h4>
                             <li>FAQ</li>
-                            <li>appointments</li>
+                            <li>Bills</li>
                             <li>facilities</li>
                             <li>membership</li>
                         </ul>
                     </div>
-                    <div className="footer-col col-12 ">
+                    <div className="footer-col">
 
                         <ul>
                             <h4>medicines</h4>
@@ -36,7 +38,7 @@ const Footer = () => {
                             <li>counsiling</li>
                         </ul>
                     </div>
-                    <div className="footer-col social-link ">
+                    <div className="footer-col social-link">
 
 
                         <h5>follow us</h5>
@@ -47,8 +49,12 @@ const Footer = () => {
 
                     </div>
                 </div>
+
+
+                <p style={{ color: 'gray' }}><i class="far fa-copyright"></i>All right reserved by child care hospital 2021</p>
+
             </div>
-            <p style={{ color: 'gray' }}><i class="far fa-copyright"></i>All right reserved by child care hospital 2021</p>
+
         </div>
     );
 };
