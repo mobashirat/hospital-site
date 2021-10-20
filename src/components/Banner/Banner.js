@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Banner.css'
-import slide1 from '../../images/doctorslide2 (1).png'
+
 import slide2 from '../../images/doctorslide2.png'
 import slide3 from '../../images/doctorslide3.png'
 
@@ -18,8 +18,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption className="bg-effect mb-5">
-                        <h3>Our Researches</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>ACE HOSPITAL</h3>
+                        <p>Our main goal to give you the best service.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -31,7 +31,7 @@ const Banner = () => {
 
                     <Carousel.Caption className="bg-effect mb-5">
                         <h3>We are always here for you</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p>To know more about us Please visit our website.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

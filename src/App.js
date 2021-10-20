@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
@@ -11,6 +11,8 @@ import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import Doctors from './components/Doctors/Doctors';
 import Footer from './components/Footer/Footer';
+import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
+import Appointment from './components/Appointment/Appointment';
 
 
 function App() {
@@ -40,8 +42,11 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/doctors">
+            <PrivateRoute path="/doctors">
               <Doctors></Doctors>
+            </PrivateRoute>
+            <Route path="/appointment">
+              <Appointment></Appointment>
             </Route>
             <Route path="/register">
               <Register></Register>

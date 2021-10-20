@@ -21,8 +21,10 @@ const SingleDetails = () => {
         <div>
 
 
-            <h2>{singleDetail?.name}</h2>
+            <h2 className="mt-4 mb-3 fw-bold">{singleDetail?.name}</h2>
             <img src={singleDetail?.img} alt="Not found" />
+            <p>{singleDetail?.describtion}</p>
+            <button className="btn-dark mb-3">more</button>
 
 
         </div>

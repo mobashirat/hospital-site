@@ -6,8 +6,8 @@ import useAuth from '../../hooks/useAuth';
 const Login = () => {
     const { signInUsingGoogle } = useAuth()
     return (
-        <div>
-            <div><h2>Please Login</h2>
+        <div className="mb-4">
+            <div><h2 className="mt-4 mb-3">Please Login</h2>
                 <form>
                     <input type="email" name="email" id="" placeholder="enter your email" /><br /><br />
                     <input type="password" name="" id="" placeholder="enter your password" /><br /><br />

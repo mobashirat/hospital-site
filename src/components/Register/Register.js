@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Register.css'
 
 
 
 const Register = () => {
     return (
-        <div>
-            <div><h2>Please Sign up</h2>
+        <div className="mb-4">
+            <div><h2 className="mt-4 mb-3">Please Sign up</h2>
                 <form>
                     <input type="email" name="email" id="" placeholder="enter your email" /><br /><br />
                     <input type="password" name="" id="" placeholder="enter your password" /><br /><br />
