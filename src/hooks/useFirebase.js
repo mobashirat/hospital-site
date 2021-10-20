@@ -5,9 +5,12 @@ import { useState, useEffect } from 'react';
 initAuthantication();
 const useFirebase = () => {
     const [user, setUser] = useState({});
+
     const [isLoading, setIsLoading] = useState(true);
 
     const auth = getAuth();
+
+
 
     const signInUsingGoogle = () => {
         setIsLoading(true);
@@ -45,6 +48,7 @@ const useFirebase = () => {
         user,
         isLoading,
         signInUsingGoogle,
+
         logOut
     }
 }
