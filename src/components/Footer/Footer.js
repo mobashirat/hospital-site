@@ -9,16 +9,16 @@ const Footer = () => {
 
                 <div className="row">
 
-                    <div className="footer-col col-lg-4">
+                    <div className="footer-col">
 
-                        <ul className="col-lg-3 col-12">
+                        <ul>
                             <h4>medical</h4>
                             <li>about us</li>
                             <li>our service</li>
 
                         </ul>
                     </div>
-                    <div className="footer-col col-lg-4">
+                    <div className="footer-col">
 
                         <ul>
                             <h4>help</h4>
@@ -28,7 +28,7 @@ const Footer = () => {
                             <li>membership</li>
                         </ul>
                     </div>
-                    <div className="footer-col col-lg-4">
+                    <div className="footer-col">
 
                         <ul>
                             <h4>medicines</h4>

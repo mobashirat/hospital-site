@@ -5,11 +5,11 @@ This project was bootstrapped with https://ace-hospital.web.app/home
 ## Available Scripts
 
 In the project directory, you:
-*can see our services
-*can get appointment
-*can see our doctors list of different category.
-*can get a membership
-*For more information you can visit our social media
+•can see our services.
+•can get appointment.
+•can see our doctors list of different category.
+•can get a membership.
+•For more information you can visit our social media.
 
 
 ### `npm start`
