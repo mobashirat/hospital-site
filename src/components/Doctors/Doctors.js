@@ -1,12 +1,18 @@
 import React from 'react';
-import doctor1 from '../../doctors/doctor3.jpg'
+import './Doctors.css'
+
+
+
+
+
 const Doctors = () => {
     return (
-        <div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div className="header">
+            <h4>Doctors List</h4>
+            <div class="row row-cols-1 row-cols-md-3 g-4 p-2">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={doctor1} class="card-img-top rounded-circle" alt="..." />
+                    <div class="card shadow-md">
+                        <img src="https://i.ibb.co/hBRxpv9/doc5.jpg" class="card-img-top w-50 mx-auto" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -14,17 +20,17 @@ const Doctors = () => {
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="..." />
+                    <div class="card">
+                        <img src="https://i.ibb.co/FVwyZSs/doc6.png" class="card-img-top w-50 mx-auto" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a short card.</p>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="..." />
+                    <div class="card card-h-100">
+                        <img src="https://i.ibb.co/QfPRfw6/doc1.png" class="card-img-top w-50 mx-auto" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -32,8 +38,26 @@ const Doctors = () => {
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="..." />
+                    <div class="card">
+                        <img src="https://i.ibb.co/yV0Jj5z/doc2.png" class="card-img-top w-50 mx-auto" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://i.ibb.co/nC1kLqS/doc3.png" class="card-img-top w-50 mx-auto" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://i.ibb.co/Brd4dBn/doc4.png" class="card-img-top w-50 mx-auto" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

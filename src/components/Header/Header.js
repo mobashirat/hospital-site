@@ -1,8 +1,10 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 
 const Header = () => {
+    const { logOut, user } = useAuth();
     return (
         <>
 
@@ -13,11 +15,18 @@ const Header = () => {
                     <Navbar.Toggle />
 
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={Link} to="/home" className="fs-4 ms-4">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/services" className="fs-4 ms-4">Services</Nav.Link>
-                        <Nav.Link as={Link} to="/pricing" className="fs-4 ms-4">Our Doctors</Nav.Link>
+                        <Nav.Link as={Link} to="/home" className="fs-5 ms-1">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/services" className="fs-5 ms-1">Services</Nav.Link>
+                        <Nav.Link as={Link} to="/doctors" className="fs-5 ms-1">Doctors</Nav.Link>
+
+                        <Nav.Link as={Link} to="/register" className="fs-5 ms-1">Sign up</Nav.Link>
+
+                        {user.email ? <Button onClick={logOut} variant="primary">Logout</Button> :
+
+                            <Nav.Link as={Link} to="/login" className="fs-5 ms-1">Login</Nav.Link>}
+
                         <Navbar.Text>
-                            Signed in as: <a href="/login">Mark Otto</a>
+                            Signed in as: <a href="#login">{user.displayName}</a>
                         </Navbar.Text>
                     </Navbar.Collapse>
 

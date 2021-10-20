@@ -6,12 +6,12 @@ import './Qualification.css'
 
 const Qualifications = () => {
     return (
-        <div>
-            <h2 className="text-success fs-2 fw-bold m-4">Why Choose Us!!!</h2>
+        <div className="quality">
+            <h2 className="text-success mt-4 pt-4">Why Choose Us!!!</h2>
             <hr className="mx-5 text-danger fw-bold" />
             <div class="row row-cols-1 row-cols-md-3 g-3 mb-3">
                 <div class="col">
-                    <div class="card  h-100">
+                    <div class="card cardes  h-100">
                         <img src={img1} alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fs-3">Best Equipments</h5>
@@ -23,7 +23,7 @@ const Qualifications = () => {
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card cardes h-100">
                         <img src={img2} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fs-3">Emergency Service</h5>
@@ -38,7 +38,7 @@ const Qualifications = () => {
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card cardes h-100">
                         <img src={img3} class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title fs-3">Dedicated Doctors</h5>

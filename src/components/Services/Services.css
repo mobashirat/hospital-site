@@ -1,4 +1,10 @@
 .service-container h2{
- color: blue;
+ color: rgb(2, 2, 34);
  padding-top: 20px;
+ margin-bottom: 30px;
+ font-weight: 700;
+ font-family: 'Times New Roman', Times, serif;
+}
+.service-container{
+  background-color: rgb(182, 195, 231);
 }
