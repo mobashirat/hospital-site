@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import Footer from '../Footer/Footer';
 
 const Header = () => {
     const { logOut, user } = useAuth();
@@ -36,7 +37,7 @@ const Header = () => {
 
                 </Container>
             </Navbar>
-
+            <Footer></Footer>
 
         </>
 
