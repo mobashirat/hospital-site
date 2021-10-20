@@ -9,7 +9,7 @@ const Footer = () => {
 
                 <div className="row">
 
-                    <div className="footer-col">
+                    <div className="footer-col col-lg-4">
 
                         <ul className="col-lg-3 col-12">
                             <h4>medical</h4>
@@ -18,7 +18,7 @@ const Footer = () => {
 
                         </ul>
                     </div>
-                    <div className="footer-col">
+                    <div className="footer-col col-lg-4">
 
                         <ul>
                             <h4>help</h4>
@@ -28,7 +28,7 @@ const Footer = () => {
                             <li>membership</li>
                         </ul>
                     </div>
-                    <div className="footer-col">
+                    <div className="footer-col col-lg-4">
 
                         <ul>
                             <h4>medicines</h4>
