@@ -1,13 +1,11 @@
 .col img{
     border-radius: 50%;
+   
 
 }
-.header{
-  
-  
-}
-.card{
-  
-  
-  
+.header h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 10px;
 }

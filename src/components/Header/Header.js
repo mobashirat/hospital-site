@@ -5,6 +5,7 @@ import useAuth from '../../hooks/useAuth';
 
 const Header = () => {
     const { logOut, user } = useAuth();
+    console.log(user)
     return (
         <>
 
@@ -24,7 +25,7 @@ const Header = () => {
 
                         <Nav.Link as={Link} to="/register" className="fs-5 ms-1">Sign up</Nav.Link>
 
-                        {user.email ? <Button onClick={logOut} variant="primary">Logout</Button> :
+                        {user?.displayName ? <Button onClick={logOut} variant="primary">Logout</Button> :
 
                             <Nav.Link as={Link} to="/login" className="fs-5 ms-1">Login</Nav.Link>}
 
