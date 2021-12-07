@@ -14,7 +14,7 @@ const TopServices = () => {
 
     return (
         <div className="service-container gx-0">
-            <h2>OUR SERVICES</h2>
+            <h2>OUR All SERVICES</h2>
             <div className="row row-cols-1 row-cols-md-3 g-2">
                 {
                     topservices?.slice(2).map(topservice => <TopService
